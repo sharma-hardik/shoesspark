@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+h1 a{
+	border:0px solid red;
+	font-size: 25px;
+	color: white;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 20px; 
+	  background: linear-gradient(to right, #5790e6 0%, #99ccff 100%);
+}
+nav{
+	display: flex;
+	
+	justify-content: inherit;
+	align-items: center;
+}
+ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Poppins', sans-serif;
+}
+nav{
+	border: 0px solid black;
+	height: 10vh;
+	
+}
+.content{
+	display: flex;
+	border: 0px solid black;
+	height: 90vh;
+	width: 100%;
+}
+
+.content div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 90vh;
+	border: 0px solid orange;
+}
+nav div{
+	border: 0px solid red;
+    width: 30%;
+}
+.align{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	background-size: cover;
+
+	background-repeat: repeat-y;
+}
+nav div h2{
+	font-family: 'Poppins', sans-serif;
+	margin: 0px 20px;
+	font-size: 30px;
+}
+img {
+  position: relative;
+  animation: mymove 5s infinite alternate;
+}
+
+@keyframes mymove {
+  0%   {top: 0px;}
+  25%  {top: 30px;}
+  75%  {top: 0px}
+  100% {top: 30px;}
+}
+.content div h1{
+	margin: 0px 30px;
+		font-family: 'Poppins', sans-serif;
+}
+header {
+		background-image:  url("back.png");
+	height: 100vh;
+	border: 0px solid green;
+}
